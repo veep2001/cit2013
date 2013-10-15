@@ -19,7 +19,7 @@ import urllib
 
 notebooks = sorted(glob.glob('*.ipynb'))
 
-tpl =  '* [{0}](http://nbviewer.ipython.org/url/raw.github.com/' + repo +'{1})'
+tpl =  '* [{0}](http://nbviewer.ipython.org/url/raw.github.com/' + repo +'/{1})'
 
 idx = [ heading ]
 
